@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts.internal.AccountManagerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:52:21" hostname="DESKTOP-OFNM1PJ" time="1.27">
+  <properties/>
+  <testcase name="getAccount()" classname="accounts.internal.AccountManagerTests" time="0.958"/>
+  <testcase name="addBeneficiary()" classname="accounts.internal.AccountManagerTests" time="0.004"/>
+  <testcase name="testGetAllAccounts()" classname="accounts.internal.AccountManagerTests" time="0.048"/>
+  <testcase name="addAccount()" classname="accounts.internal.AccountManagerTests" time="0.022"/>
+  <testcase name="updateAccountBeneficiaries()" classname="accounts.internal.AccountManagerTests" time="0.012"/>
+  <testcase name="removeBeneficiary()" classname="accounts.internal.AccountManagerTests" time="0.019"/>
+  <testcase name="updateAccount()" classname="accounts.internal.AccountManagerTests" time="0.013"/>
+  <system-out><![CDATA[INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

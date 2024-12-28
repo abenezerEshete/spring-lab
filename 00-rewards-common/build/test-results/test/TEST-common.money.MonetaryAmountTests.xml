@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="common.money.MonetaryAmountTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:51:57" hostname="DESKTOP-OFNM1PJ" time="0.07">
+  <properties/>
+  <testcase name="testDoubleEquality()" classname="common.money.MonetaryAmountTests" time="0.019"/>
+  <testcase name="testMultiplyByDecimal()" classname="common.money.MonetaryAmountTests" time="0.016"/>
+  <testcase name="testMonetaryAmountValueOfString()" classname="common.money.MonetaryAmountTests" time="0.005"/>
+  <testcase name="testDivideByMonetaryAmount()" classname="common.money.MonetaryAmountTests" time="0.004"/>
+  <testcase name="testMonetaryCreation()" classname="common.money.MonetaryAmountTests" time="0.001"/>
+  <testcase name="testMultiplyByPercentage()" classname="common.money.MonetaryAmountTests" time="0.004"/>
+  <testcase name="testDivideByDecimal()" classname="common.money.MonetaryAmountTests" time="0.003"/>
+  <testcase name="testMonetaryAdd()" classname="common.money.MonetaryAmountTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

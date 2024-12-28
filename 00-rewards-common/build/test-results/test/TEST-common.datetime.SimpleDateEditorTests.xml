@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="common.datetime.SimpleDateEditorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:51:57" hostname="DESKTOP-OFNM1PJ" time="0.105">
+  <properties/>
+  <testcase name="testSetAsTextBogus()" classname="common.datetime.SimpleDateEditorTests" time="0.072"/>
+  <testcase name="testSetAsText()" classname="common.datetime.SimpleDateEditorTests" time="0.022"/>
+  <testcase name="testGetAsText()" classname="common.datetime.SimpleDateEditorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

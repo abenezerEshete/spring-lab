@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.internal.account.JpaAccountRepositoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:52:39" hostname="DESKTOP-OFNM1PJ" time="0.429">
+  <properties/>
+  <testcase name="findByCreditCard()" classname="rewards.internal.account.JpaAccountRepositoryTests" time="0.215"/>
+  <testcase name="testProfile()" classname="rewards.internal.account.JpaAccountRepositoryTests" time="0.212"/>
+  <system-out><![CDATA[INFO : config - Created JpaAccountManager
+INFO : config - Created JpaAccountManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

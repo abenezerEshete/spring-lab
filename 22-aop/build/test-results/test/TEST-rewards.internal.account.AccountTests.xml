@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.internal.account.AccountTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:53:34" hostname="DESKTOP-OFNM1PJ" time="0.015">
+  <properties/>
+  <testcase name="accountIsValid()" classname="rewards.internal.account.AccountTests" time="0.003"/>
+  <testcase name="accountIsInvalidWhenBeneficiaryAllocationsAreOver100()" classname="rewards.internal.account.AccountTests" time="0.003"/>
+  <testcase name="accountIsInvalidWhenBeneficiaryAllocationsAreUnder100()" classname="rewards.internal.account.AccountTests" time="0.001"/>
+  <testcase name="makeContribution()" classname="rewards.internal.account.AccountTests" time="0.001"/>
+  <testcase name="accountIsInvalidWithNoBeneficiaries()" classname="rewards.internal.account.AccountTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

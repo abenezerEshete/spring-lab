@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="common.money.PercentageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:51:57" hostname="DESKTOP-OFNM1PJ" time="0.014">
+  <properties/>
+  <testcase name="testPercentage()" classname="common.money.PercentageTests" time="0.001"/>
+  <testcase name="testPercentageEquality()" classname="common.money.PercentageTests" time="0.001"/>
+  <testcase name="testNewPercentageWithRounding()" classname="common.money.PercentageTests" time="0.003"/>
+  <testcase name="testPercentageValueOfString()" classname="common.money.PercentageTests" time="0.001"/>
+  <testcase name="testNewPercentage()" classname="common.money.PercentageTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

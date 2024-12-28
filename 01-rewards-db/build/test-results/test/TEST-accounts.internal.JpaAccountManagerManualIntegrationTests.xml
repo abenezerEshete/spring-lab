@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts.internal.JpaAccountManagerManualIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:52:37" hostname="DESKTOP-OFNM1PJ" time="1.823">
+  <properties/>
+  <testcase name="getAccount()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.027"/>
+  <testcase name="addBeneficiary()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.007"/>
+  <testcase name="testGetAllAccounts()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.028"/>
+  <testcase name="addAccount()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.004"/>
+  <testcase name="updateAccountBeneficiaries()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.014"/>
+  <testcase name="removeBeneficiary()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.016"/>
+  <testcase name="updateAccount()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.013"/>
+  <testcase name="testProfile()" classname="accounts.internal.JpaAccountManagerManualIntegrationTests" time="0.004"/>
+  <system-out><![CDATA[INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@2ebf524 - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@2ebf524
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@12e3f4ae - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@12e3f4ae
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@6d7bb5cc - completed = false
+INFO : utils.TransactionUtils - TRANSACTION = org.springframework.transaction.support.DefaultTransactionStatus@756200d1
+INFO : a.i.JpaAccountManagerManualIntegrationTests - TRANSACTION IS : org.springframework.transaction.support.DefaultTransactionStatus@756200d1
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@6d7bb5cc
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@568ef502 - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@568ef502
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@cb1c58c - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@cb1c58c
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@675230cd - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@675230cd
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@a93c798 - completed = false
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@a93c798
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : utils.TransactionUtils - NEW org.springframework.transaction.support.DefaultTransactionStatus@417751d3 - completed = false
+INFO : a.i.JpaAccountManagerManualIntegrationTests - JPA with Hibernate
+INFO : utils.TransactionUtils - ROLLBACKK org.springframework.transaction.support.DefaultTransactionStatus@417751d3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

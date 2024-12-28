@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.internal.reward.JdbcRewardRepositoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:52:40" hostname="DESKTOP-OFNM1PJ" time="0.056">
+  <properties/>
+  <testcase name="createReward()" classname="rewards.internal.reward.JdbcRewardRepositoryTests" time="0.031"/>
+  <testcase name="testProfile()" classname="rewards.internal.reward.JdbcRewardRepositoryTests" time="0.023"/>
+  <system-out><![CDATA[INFO : config - Created JdbcRewardRepository
+INFO : config - Created JdbcRewardRepository
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

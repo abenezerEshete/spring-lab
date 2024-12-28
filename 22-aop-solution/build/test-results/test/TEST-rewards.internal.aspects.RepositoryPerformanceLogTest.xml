@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.internal.aspects.RepositoryPerformanceLogTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:53:46" hostname="DESKTOP-OFNM1PJ" time="0.06">
+  <properties/>
+  <testcase name="testMonitor()" classname="rewards.internal.aspects.RepositoryPerformanceLogTest" time="0.06"/>
+  <system-out><![CDATA[INFO : rewards.internal.aspects.LoggingAspect - 'Around' advice implementation - Object.hashCode: Last=0.0, Calls=1.0, Avg=0.0, Total=0.0, Min=0.0, Max=0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

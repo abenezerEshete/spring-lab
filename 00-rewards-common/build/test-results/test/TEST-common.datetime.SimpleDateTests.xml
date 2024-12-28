@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="common.datetime.SimpleDateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:51:57" hostname="DESKTOP-OFNM1PJ" time="0.019">
+  <properties/>
+  <testcase name="testToday()" classname="common.datetime.SimpleDateTests" time="0.006"/>
+  <testcase name="testValueOfDate()" classname="common.datetime.SimpleDateTests" time="0.004"/>
+  <testcase name="testValueOfTime()" classname="common.datetime.SimpleDateTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

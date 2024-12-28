@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.internal.account.JpaAccountRepositoryIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-24T18:52:39" hostname="DESKTOP-OFNM1PJ" time="0.102">
+  <properties/>
+  <testcase name="findByCreditCard()" classname="rewards.internal.account.JpaAccountRepositoryIntegrationTests" time="0.091"/>
+  <testcase name="testProfile()" classname="rewards.internal.account.JpaAccountRepositoryIntegrationTests" time="0.008"/>
+  <system-out><![CDATA[INFO : o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO : o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@696ce057, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5eba9e41, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@13809363, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@564d3940, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58ad0586, org.springframework.test.context.transaction.TransactionalTestExecutionListener@526fc044, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45635ae1, org.springframework.test.context.event.EventPublishingTestExecutionListener@7adbec34, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4aea57dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66abc325, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39403943, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1c5fd813, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@49338f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c9971af]
+INFO : o.s.t.c.transaction.TransactionContext - Began transaction (1) for test context [DefaultTestContext@c7cf8c4 testClass = JpaAccountRepositoryIntegrationTests, testInstance = rewards.internal.account.JpaAccountRepositoryIntegrationTests@56e78538, testMethod = findByCreditCard@AbstractAccountRepositoryTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@731fae testClass = JpaAccountRepositoryIntegrationTests, locations = '{}', classes = '{class config.AppConfig, class config.DbConfig}', contextInitializerClasses = '[]', activeProfiles = '{jpa}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4fc5e095, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b11a194, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1b065145, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5827af16, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3321291a]; rollback [true]
+Hibernate: 
+    select
+        ACCOUNT_ID 
+    from
+        T_ACCOUNT_CREDIT_CARD 
+    where
+        NUMBER = ?
+Hibernate: 
+    select
+        account0_.ID as id1_0_0_,
+        account0_.NAME as name2_0_0_,
+        account0_.NUMBER as number3_0_0_ 
+    from
+        T_ACCOUNT account0_ 
+    where
+        account0_.ID=?
+Hibernate: 
+    select
+        beneficiar0_.ACCOUNT_ID as account_5_1_0_,
+        beneficiar0_.ID as id1_1_0_,
+        beneficiar0_.ID as id1_1_1_,
+        beneficiar0_.ALLOCATION_PERCENTAGE as allocati2_1_1_,
+        beneficiar0_.NAME as name3_1_1_,
+        beneficiar0_.SAVINGS as savings4_1_1_ 
+    from
+        T_ACCOUNT_BENEFICIARY beneficiar0_ 
+    where
+        beneficiar0_.ACCOUNT_ID=?
+INFO : o.s.t.c.transaction.TransactionContext - Rolled back transaction for test: [DefaultTestContext@c7cf8c4 testClass = JpaAccountRepositoryIntegrationTests, testInstance = rewards.internal.account.JpaAccountRepositoryIntegrationTests@56e78538, testMethod = findByCreditCard@AbstractAccountRepositoryTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@731fae testClass = JpaAccountRepositoryIntegrationTests, locations = '{}', classes = '{class config.AppConfig, class config.DbConfig}', contextInitializerClasses = '[]', activeProfiles = '{jpa}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4fc5e095, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5b11a194, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1b065145, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5827af16, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

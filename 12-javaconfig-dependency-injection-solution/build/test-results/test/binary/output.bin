@@ -1,0 +1,13 @@
+A ::                                                         ____
+B /\    ____                 ____             _              \ \ \
+C|/\|  / ___|___  _ __ ___  / ___| _ __  _ __(_)_ __   __ _   \ \ \
+D     | |   / _ \| '__/ _ \ \___ \| '_ \| '__| | '_ \ / _` |   \ \ \
+D     | |__| (_) | | |  __/  ___) | |_) | |  | | | | | (_| |   / / /
+C      \____\___/|_|  \___| |____/| .__/|_|  |_|_| |_|\__, |  / / /
+C ================================|_|==================|___/=/_/_/=
+E   :: Core Spring Training ::                  :: v5.3.23.RELEASE ::
+
+ÿINFO : w.o.g.p.internal.worker.GradleWorkerMain - Starting GradleWorkerMain using Java 17.0.13 on DESKTOP-OFNM1PJ with PID 30352 (started by Abenezer in C:\Users\Abenezer\IdeaProjects\core-spring-labfiles\lab\12-javaconfig-dependency-injection-solution)
+cDEBUG: w.o.g.p.internal.worker.GradleWorkerMain - Running with Spring Boot v2.7.5, Spring v5.3.23
+wINFO : w.o.g.p.internal.worker.GradleWorkerMain - No active profile set, falling back to 1 default profile: "default"
+uINFO : w.o.g.p.internal.worker.GradleWorkerMain - Started GradleWorkerMain in 1.602 seconds (JVM running for 4.341)
